@@ -1,0 +1,75 @@
+body{
+    background-image: url(img/fondo-login.png);
+    background-size:cover;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+form {
+    font-size: x-large;
+    background-image: url(img/fondo-formulario.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 500px;
+    height:400px;
+    padding: 30px;
+    display: block;
+    margin: auto;
+    margin-top:10%;
+    text-align:center;
+    color: white;
+    border-radius: 40px;
+}
+
+form input{
+    margin: 10px;
+}
+
+form h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:45px;
+    line-height:20px;
+}
+
+
+input[type="text"], input[type="password"]{
+    border-radius: 25px;
+    height: 20px;
+    width: 200px;
+    background-color: #0073BF;
+    border:1px solid white;
+    color:white;
+    outline: none;   
+}
+
+input[type="submit"]{
+    border-radius: 25px;
+    height: 40px;
+    width: 200px;
+    outline: none;   
+    background-color: white;
+    color: black;
+    border: 3px solid #0073BF;
+    transition-duration: 0.4s;
+    font-weight: bold;
+}
+input[type="submit"]:hover{
+    color:white;
+    background-color: #0073BF;
+}
+
+section{
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+}
+section h3{
+    padding: 20px;
+    background-color: #f44336; 
+    color: white;
+    margin-bottom: 15px;
+    text-align: center;
+    margin: auto;
+    width: 200px;
+    border-radius: 20px;
+}
